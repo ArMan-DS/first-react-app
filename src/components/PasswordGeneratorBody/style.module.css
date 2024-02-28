@@ -1,0 +1,25 @@
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px 0 ;
+}
+
+.grid_item {
+    display: flex;
+    gap: 5;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_generator {
+    all: unset;
+    font-size: x-large;
+}
+.btn_generator:hover {
+    cursor: pointer;
+}
